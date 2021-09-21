@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+<listener class-name="com.WSM.utilities.Listenershelp"/>
+</listeners>
+  <test thread-count="5" name="Test">
+    <classes>
+      <!--  <class name="com.WSM.workshops.TC2_CreateWorkshop"/>  -->
+      
+      <class name="com.WSM.workshops.TC1_Login"/>
+      <class name="com.WSM.workshops.TC3_CopyWorkshop"/>
+      <class name="com.WSM.workshops.TC4_AddpaxWorkshop"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
